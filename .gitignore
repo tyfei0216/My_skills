@@ -25,3 +25,4 @@ venv/
 tmp/
 temp/
 *.log
+.upstream-tmp-*/

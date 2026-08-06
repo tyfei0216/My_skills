@@ -1,0 +1,33 @@
+name: Update upstream skills
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Refresh managed skills
+        shell: pwsh
+        run: ./update-upstream-skills.ps1
+
+      - name: Open or update pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: automation/update-upstream-skills
+          delete-branch: true
+          commit-message: Update upstream skills
+          title: Update upstream skills
+          body: |
+            Automated refresh of the skill snapshots listed in `skill-sources.json`.
+
+            Review upstream content and validation results before merging.

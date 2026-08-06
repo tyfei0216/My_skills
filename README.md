@@ -4,6 +4,14 @@ This repository keeps personal Codex skills synchronized across machines. Each
 top-level directory containing a `SKILL.md` file is treated as one installable
 skill.
 
+Managed figure skills:
+
+| Skill | Upstream | Purpose |
+| --- | --- | --- |
+| `nature-figure` | `Yuan1z0825/nature-skills` | Nature-style publication figures |
+| `scientific-visualization` | `davila7/claude-code-templates` | Python publication plots and export guidance |
+| `drawio-skill` | `Agents365-ai/drawio-skill` | Editable pipeline and architecture illustrations |
+
 ## Repository layout
 
 ```text
@@ -34,6 +42,29 @@ them from this repository, run:
 ```
 
 Restart Codex after adding or updating skills so they are discovered.
+
+## Update upstream skills
+
+The tracked sources and paths live in `skill-sources.json`. Refresh all managed
+upstream skills with:
+
+```powershell
+.\update-upstream-skills.ps1
+```
+
+Refresh only selected skills with:
+
+```powershell
+.\update-upstream-skills.ps1 -Name nature-figure,drawio-skill
+```
+
+The updater refuses to overwrite uncommitted changes inside a managed skill.
+Use `-Force` only when those local edits should be discarded, then review the
+result with `git diff` before committing.
+
+GitHub Actions checks upstream every Monday and opens or updates a pull request
+when files change. In the GitHub repository settings, allow Actions to create
+pull requests under **Actions > General > Workflow permissions**.
 
 ## Everyday workflow
 

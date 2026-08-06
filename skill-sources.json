@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "nature-figure",
+      "repository": "Yuan1z0825/nature-skills",
+      "ref": "main",
+      "path": "skills/nature-figure"
+    },
+    {
+      "name": "scientific-visualization",
+      "repository": "davila7/claude-code-templates",
+      "ref": "main",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization"
+    },
+    {
+      "name": "drawio-skill",
+      "repository": "Agents365-ai/drawio-skill",
+      "ref": "main",
+      "path": "skills/drawio-skill",
+      "remove_frontmatter_keys": [
+        "version",
+        "homepage",
+        "compatibility",
+        "platforms"
+      ]
+    }
+  ]
+}
