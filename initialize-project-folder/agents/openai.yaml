@@ -1,0 +1,4 @@
+interface:
+  display_name: "Initialize Project Folder"
+  short_description: "Initialize repeatable Python project folders"
+  default_prompt: "Use $initialize-project-folder to create a structured Python project repository in the target folder."

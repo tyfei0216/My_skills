@@ -1,0 +1,46 @@
+# Session State: {{PROJECT_NAME}}
+
+**Current Phase**: Project initialization
+**Current Stage**: Implementation
+**Last Updated**: {{CREATED_AT}}
+**Last Checkpoint**: None
+
+## Objective
+
+Define the current project objective here.
+
+## Progress
+
+- [x] Initialize the standard project folder structure.
+- [ ] Define the first implementation phase.
+
+## Current Work
+
+No active task yet.
+
+## Next Action
+
+Define the project objective and the first concrete implementation task.
+
+## Key Files
+
+- `log/SESSION.md`
+
+## Decisions
+
+- Use `src/` for reusable Python modules.
+- Keep demonstrations in `notebook/` and exploratory work in `working/`.
+- Keep figure notebooks and outputs in `figure/`.
+
+## Verification
+
+- [ ] Confirm the project structure matches the intended workflow.
+- [ ] Run the first project-specific validation command.
+
+## Known Issues
+
+None.
+
+## Handoff Notes
+
+Update this section before ending a work session. Record what changed, what was verified, and the exact next action.

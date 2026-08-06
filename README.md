@@ -4,10 +4,11 @@ This repository keeps personal Codex skills synchronized across machines. Each
 top-level directory containing a `SKILL.md` file is treated as one installable
 skill.
 
-Managed figure skills:
+Managed skills:
 
-| Skill | Upstream | Purpose |
+| Skill | Source | Purpose |
 | --- | --- | --- |
+| `initialize-project-folder` | Local | Standard Python project repository scaffolding |
 | `nature-figure` | `Yuan1z0825/nature-skills` | Nature-style publication figures |
 | `scientific-visualization` | `davila7/claude-code-templates` | Python publication plots and export guidance |
 | `jupyter-notebook` | `openai/skills` | Reproducible notebook creation and maintenance |
