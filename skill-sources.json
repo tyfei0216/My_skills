@@ -20,6 +20,15 @@
       "path": "skills/.curated/jupyter-notebook"
     },
     {
+      "name": "project-session-management",
+      "repository": "jezweb/claude-skills",
+      "ref": "v1-final",
+      "path": "skills/project-session-management",
+      "remove_frontmatter_keys": [
+        "user-invocable"
+      ]
+    },
+    {
       "name": "drawio-skill",
       "repository": "Agents365-ai/drawio-skill",
       "ref": "main",

@@ -11,6 +11,7 @@ Managed figure skills:
 | `nature-figure` | `Yuan1z0825/nature-skills` | Nature-style publication figures |
 | `scientific-visualization` | `davila7/claude-code-templates` | Python publication plots and export guidance |
 | `jupyter-notebook` | `openai/skills` | Reproducible notebook creation and maintenance |
+| `project-session-management` | `jezweb/claude-skills` (`v1-final`) | Persistent `SESSION.md` handoffs and checkpoints |
 | `drawio-skill` | `Agents365-ai/drawio-skill` | Editable pipeline and architecture illustrations |
 
 ## Repository layout
@@ -66,6 +67,9 @@ result with `git diff` before committing.
 GitHub Actions checks upstream every Monday and opens or updates a pull request
 when files change. In the GitHub repository settings, allow Actions to create
 pull requests under **Actions > General > Workflow permissions**.
+
+`project-session-management` is pinned to the author's archived `v1-final` tag
+because it is no longer present on the repository's current `main` branch.
 
 ## Everyday workflow
 
