@@ -10,6 +10,7 @@ Managed figure skills:
 | --- | --- | --- |
 | `nature-figure` | `Yuan1z0825/nature-skills` | Nature-style publication figures |
 | `scientific-visualization` | `davila7/claude-code-templates` | Python publication plots and export guidance |
+| `jupyter-notebook` | `openai/skills` | Reproducible notebook creation and maintenance |
 | `drawio-skill` | `Agents365-ai/drawio-skill` | Editable pipeline and architecture illustrations |
 
 ## Repository layout

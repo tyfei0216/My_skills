@@ -14,6 +14,12 @@
       "path": "cli-tool/components/skills/scientific/scientific-visualization"
     },
     {
+      "name": "jupyter-notebook",
+      "repository": "openai/skills",
+      "ref": "main",
+      "path": "skills/.curated/jupyter-notebook"
+    },
+    {
       "name": "drawio-skill",
       "repository": "Agents365-ai/drawio-skill",
       "ref": "main",
