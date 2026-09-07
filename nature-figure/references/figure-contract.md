@@ -25,6 +25,7 @@ Create a short contract in working notes or in the response:
 
 ```text
 Core conclusion:
+Results-level question:
 Figure archetype:
 Target journal/output:
 Backend: Python or R
@@ -61,7 +62,7 @@ panels. This claim-first pass prevents redundant figures that restate the same r
   the hero panel or the clearest axis; controls and robustness panels should be
   visually quieter.
 - If the user provides data but no claim, infer a provisional claim from the data
-  request and ask for confirmation before final styling.
+  request. Confirm only an unresolved interpretive claim that materially changes the final figure; continue independent data checks and layout preparation while waiting. Do not add unsupported causal claims.
 - If observations are matched by dataset, subject, seed, task, or specimen, decide
   whether the claim concerns the paired change. Marginal distributions can overlap
   because of between-unit heterogeneity even when paired differences are consistent.
@@ -76,6 +77,12 @@ panels. This claim-first pass prevents redundant figures that restate the same r
 | `asymmetric mixed-modality figure` | The figure combines schematic, raster images, heatmaps, and quantitative plots | One panel spans rows/columns | Smaller panels ranked by evidence value |
 
 ## Panel logic
+
+For a labelled multi-panel manuscript figure, load
+`multipanel-evidence-architecture.md`. Use `one figure = one major claim` as a
+strong planning default. Panels should be different necessary sentences in the
+same visual argument, not parallel mini-stories or the same comparison mirrored
+across several metrics.
 
 Use this order unless the manuscript story clearly requires another:
 

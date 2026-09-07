@@ -63,9 +63,20 @@ Methods — *"Table 1 | … Detailed specifications are provided in the Methods
 section."* Benchmark/framework papers lean on tables (multi-metric results) more
 than figures.
 
-## Length & title limits (consistency with style-guardrails)
+## Length and journal gate
 
-- Keep a Nature-style legend `<= 300` words.
+- This file's corpus evidence is from Nature Communications and does not set a
+  universal Nature Portfolio word limit.
+- For the flagship journal Nature, load `nature-article-requirements.md` and
+  keep each complete figure legend below 250 words.
+- For Nature Machine Intelligence, load the shared NMI contract. Its current
+  live pages give no standalone per-legend number, while its official 2018
+  brief guide said to keep each figure legend below 300 English words. Count
+  the complete title-plus-panels legend, not each panel; aim for 150–250 words
+  and use below 300 as a historical advisory ceiling unless the live submission
+  system or editor gives a newer instruction.
+- For Nature Communications or another subjournal, verify the current journal
+  and article-type instructions before enforcing a numerical cap.
 - Keep the `Fig. N |` title short and nominal; no numbers/results in the figure
   *title* line (numbers live in the panels and stats).
 
